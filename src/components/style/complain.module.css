@@ -1,0 +1,267 @@
+.image {
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+
+.imagechat {
+    width: 7% !important;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    align-items: center !important;
+    float: right;
+    margin-right: 15px;
+
+}
+
+.chat {
+    width: 30%;
+    height: 87vh;
+    border-right: 2px solid white;
+
+}
+
+.name {
+    padding-top: 5px;
+    line-height: 5px;
+}
+
+.body {
+    width: 100% !important;
+    background-color: black !important;
+    height: 90.5vh;
+}
+
+.listcontact {
+    padding: 10px 15px !important;
+}
+
+.separator {
+    border-right: 0.1px solid gray !important;
+    height: 90vh;
+
+}
+
+.content {
+    height: 90vh;
+    position: relative;
+    padding-bottom: 20px !important;
+}
+
+.contact {
+    padding-top: 4rem;
+}
+
+.contactname {
+    padding-top: 10px;
+}
+
+.contentchat {
+    bottom: 0 !important;
+    position: absolute;
+    width: 100% !important;
+    margin-bottom: 20px;
+}
+
+.contentmessage {
+    margin: 5px !important;
+}
+
+.Col {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+
+}
+
+.name {
+    color: white;
+    font-size: 1.1rem;
+
+}
+
+
+.images {
+    width: 100%;
+    height: 50px;
+    margin-top: 0rem;
+    border: 1px solid #000000;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+
+.chats {
+    width: 70%;
+    height: 87vh;
+}
+
+.contact {
+    padding-top: 4rem;
+}
+
+.Cols {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin-bottom: 1rem;
+    margin-top: 20rem;
+    margin-left: 4rem;
+    justify-content: flex-end;
+
+}
+
+
+.text {
+    color: rgb(79, 79, 79);
+}
+
+.names {
+    color: white;
+    font-size: 1rem;
+
+}
+
+.texts {
+    color: rgb(202, 199, 199);
+    line-height: 5px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid white;
+    border-radius: 15px 20px 20px 0px;
+    background-color: gray;
+    font-weight: 500;
+}
+
+.Form {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    height: 50px;
+    background-color: #232323 !important;
+}
+
+.display {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.user {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+
+}
+
+.Users {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin-bottom: 1rem;
+    margin-top: 25rem;
+    margin-left: 4rem;
+
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+
+}
+
+.textUser {
+    color: rgb(202, 199, 199);
+    line-height: 5px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    margin-left: 0rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid white;
+    border-radius: 20px 20px 0px 15px;
+    background-color: gray;
+    font-weight: 500;
+
+}
+
+.textUsers {
+    color: rgb(202, 199, 199);
+
+
+    max-width: 445px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: gray;
+    padding: 10px;
+
+
+}
+
+.textchat {
+    padding: 10px;
+    color: white;
+    text-align: start;
+    border: 5px solid rgb(87, 87, 87) !important;
+    border-radius: 10px !important;
+    background-color: rgb(87, 87, 87) !important;
+
+
+    /* background: var(--left-msg-bg) !important;
+    background-color: rgb(87, 87, 87) !important; */
+}
+
+.msgbubble {
+    width: 100%;
+    max-width: 445px;
+
+}
+
+.msginfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.rightmsg {
+    flex-direction: row-reverse;
+    float: right;
+}
+
+.rightmsg .msgbubble {
+    background: var(--right-msg-bg);
+    color: #fff;
+    border-bottom-right-radius: 0;
+    background-color: #262626 !important;
+
+}
+
+.leftmsg {
+    flex-direction: row-reverse;
+    float: left;
+}
+
+.leftmsg .msgbubble {
+    border-bottom-left-radius: 0;
+}
+
+.leftmsg .msgimg {
+    margin: 0 0 0 10px;
+}
+
+.msginfoname {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.msginfotime {
+    font-size: 0.85em;
+}

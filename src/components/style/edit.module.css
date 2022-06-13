@@ -1,0 +1,109 @@
+.display {
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+}
+
+
+.displays {
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+}
+
+.displaysa {
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+}
+
+.form {
+    margin-top: 5rem;
+    margin-left: 5rem;
+    color: white;
+    width: 100%;
+}
+
+.input {
+    width: 90%;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: rgb(61, 61, 61) !important;
+    color: white !important;
+    font-size: 2rem;
+    border: 3px solid rgb(164, 164, 164);
+}
+
+.inputfile {
+    background-color: black !important;
+    color: white !important;
+    border: none !important;
+}
+
+.file {
+    background-color: rgb(247, 77, 77);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.link {
+    color: white;
+}
+
+.deskription {
+    width: 90%;
+    height: 150px;
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: #3C3C3C !important;
+    color: white !important;
+    font-size: 2rem;
+    border: 3px solid white;
+}
+
+.image {
+    width: 90%;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 5px;
+    background: #070707;
+    border: 1px solid #080808;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 1rem;
+
+}
+
+
+
+.button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    background-color: rgb(90, 219, 90);
+    color: white;
+    font-size: 1rem;
+    margin-top: 4rem;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.span {
+    font-size: 1.5rem;
+}
+
+.background {
+    background-color: black;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}

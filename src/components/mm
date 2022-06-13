@@ -1,0 +1,25 @@
+e.preventDefault();
+const config = {
+    headers: {
+        'Content-type': 'application/json',
+    },
+};
+// const formData = new FormData();
+
+// formData.set('name', form.name);
+
+const response = await API.patch(
+    '/category/' + categories.id,
+    { name: form.name },
+    config
+);
+console.log(response.data);
+// if (response?.status === 200)
+//     navigate('/category');
+// else
+//     alert(response?.message)
+// // console.log(formData);
+navigate('/product');
+
+        } catch (error) {
+    console.log(error);

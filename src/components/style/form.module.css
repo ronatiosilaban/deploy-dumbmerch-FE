@@ -1,0 +1,162 @@
+.App-header {
+    background-color: #c9cbcf;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.button {
+    background-color: red;
+    border: none;
+    padding: 7px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    color: white;
+    margin-top: 1rem;
+}
+
+.btn.active {
+    background-color: #fff !important;
+}
+
+.buttons {
+    background-color: black;
+    border: none;
+    padding: 7px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    color: white;
+    margin-top: 1rem;
+}
+
+.forms {
+    width: 100%;
+    background-color: rgb(31, 30, 30);
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin-left: 2rem;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 650;
+}
+
+
+
+.formInput {
+    display: block;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 5px;
+    background-color: #464646 !important;
+    border-radius: 5px;
+    padding: 5px;
+    padding-right: 80px;
+    height: 50px;
+    font-size: 23px;
+
+}
+
+/* input[type="text"],
+textarea {
+
+    background-color: red !important;
+
+} */
+
+.layout {
+    padding: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+}
+
+.content {
+    /* background-color: red !important; */
+}
+
+.sample {
+    background-color: red !important;
+}
+
+.body {
+    background-color: black !important;
+    height: 100vh;
+    color: #fff;
+    padding-top: 18vh !important;
+}
+
+.cardLogin {
+    background-color: #181818 !important;
+    color: white !important;
+    margin: 100px;
+    padding: 15px 25px;
+    border-radius: 10px !important;
+}
+
+.display {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-top: 0rem;
+    background-color: black;
+    color: white;
+}
+
+.loginImage {
+    width: 45vh !important;
+    align-items: left !important;
+    float: left !important;
+    padding-bottom: 3rem;
+}
+
+.buttonform {
+    width: 100%;
+    background-color: #F74D4D !important;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 5px;
+    color: white;
+    height: 50px;
+}
+
+.rowbutton {
+    padding-top: 50px;
+    display: inline-block !important;
+}
+
+.sidebutton {
+    width: 200px !important;
+}
+
+.btnblack {
+    background-color: black !important;
+    color: white !important;
+    width: 200px !important;
+}
+
+.paragraf {
+    color: #8d9096;
+}
+
+.layouts {
+    padding: 11rem;
+    margin-left: 5rem;
+}

@@ -1,0 +1,53 @@
+.card {
+    width: 100% !important;
+    border: none !important;
+    height: 30vh !important;
+    border-radius: 10px !important;
+    margin-right: 2rem !important;
+    background-color: rgb(255, 253, 253) !important;
+    border-color: black !important;
+    margin: 20px !important;
+}
+
+.images {
+    width: 100%;
+    height: 80vh !important;
+    border-radius: 10px 0px 0px 0px;
+
+}
+
+
+.body {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse !important;
+    justify-content: left !important;
+    margin: 1rem !important;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: rgb(230, 64, 14);
+    padding-left: 2rem;
+    font-weight: 700;
+}
+
+.cardText {
+    background-color: #212121 !important;
+    color: white;
+    padding: 1rem;
+    display: inline-table;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text {
+    color: chocolate;
+    font-size: 1.5rem;
+    text-decoration: none !important;
+}
+
+.display {
+    width: 100% !important;
+    height: 120vh;
+    background-color: black;
+}

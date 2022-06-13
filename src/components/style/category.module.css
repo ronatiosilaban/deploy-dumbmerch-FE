@@ -1,0 +1,113 @@
+.display {
+    background-color: black;
+    width: 100%;
+    height: 150vh !important;
+}
+
+.table {
+    width: 100%;
+    color: #ffffff;
+    padding-top: 5rem;
+    /* border-bottom: 2px solid white !important; */
+}
+
+.tables {
+    width: 100%;
+    color: #ffffff;
+    padding-top: 5rem;
+    /* border-bottom: 2px solid white !important; */
+    margin-bottom: 10rem !important;
+}
+
+.thead {
+    width: 100%;
+    font-size: 20px;
+    border: rgb(33, 37, 41) !important;
+    border-bottom: 1px solid rgb(233, 232, 232) !important;
+
+
+
+
+}
+
+.tbody {
+    width: 100%;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(233, 232, 232);
+    border: rgb(44, 48, 52) !important;
+    border-bottom: 2px solid white !important;
+}
+
+.addCategory {
+    margin-left: 70rem;
+    margin-bottom: 2rem;
+    color: white;
+    background-color: rgb(216, 43, 43);
+    padding: 5px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+
+
+}
+
+.text {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: 18px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    ;
+}
+
+.right {
+    padding-right: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.left {
+    padding-left: 3rem;
+    font-size: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.color {
+    background-color: rgb(49, 48, 48);
+}
+
+.buttons {
+    font-size: 1rem;
+    background-color: rgb(216, 43, 43);
+    width: 100px;
+    height: 4vh;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.button {
+    font-size: 1rem;
+    background-color: rgb(100, 231, 100);
+    width: 100px;
+    height: 4vh;
+    border-radius: 5px;
+    color: white;
+    margin-right: 15px;
+
+}
+
+.title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.modalbtn {
+    width: 100px !important;
+    margin-right: 10px;
+}

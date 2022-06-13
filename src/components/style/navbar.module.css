@@ -1,0 +1,63 @@
+.active--link {
+    color: red !important;
+}
+
+.display {
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-top: 0rem;
+    background-color: black;
+    color: white;
+}
+
+.navdark {
+    background-color: black !important;
+}
+
+.rightSide {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 62rem;
+    padding-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu {
+    text-decoration: none !important;
+    margin: 0px 15px 0px 15px;
+    color: #fff;
+    font-size: 23px;
+}
+
+.complain {
+    text-decoration: none;
+    display: inline;
+    margin-left: 15px;
+    color: white;
+
+}
+
+.complains {
+    padding-left: 6rem;
+    text-decoration: none;
+    display: inline;
+    margin-left: 15px;
+    color: white;
+
+}
+
+.img {
+    width: 80px;
+}
+
+.line {
+    display: inline;
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.active {
+    color: #fcfcfc;
+}

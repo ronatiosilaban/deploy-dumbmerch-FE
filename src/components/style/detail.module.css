@@ -1,0 +1,119 @@
+.card {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 80%;
+    height: auto;
+    border: none;
+    margin: 1rem;
+    background-color: #000000;
+    color: azure;
+    margin-left: 9rem;
+    margin-right: 8rem;
+    margin-top: 5rem;
+}
+
+.images {
+    width: 100% !important;
+    border-radius: 5px !important;
+    /* border-radius: 10px 10px 0px 10px; */
+
+}
+
+.text {
+    color: chocolate;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.cardText {
+    width: 100%;
+    margin-top: 0px;
+    border-radius: nullpx;
+    font-size: 18px;
+    margin-right: 250px;
+
+}
+
+.cardBody {
+    width: 100%;
+    margin-top: 0px;
+    border-radius: nullpx;
+    font-size: 18px;
+    margin-right: 250px;
+    color: white !important;
+    background-color: black !important;
+
+}
+
+.list {
+    line-height: 1px;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #BC3C3C !important;
+    color: white;
+    font-size: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+.price {
+    justify-content: flex-end;
+    text-align: end;
+    padding-top: 0rem;
+    color: #BC3C3C !important;
+    font-size: 26px !important;
+    font-weight: 600 !important;
+    float: right !important;
+    margin-left: 20px;
+}
+
+.display {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.deskription {
+    justify-content: left;
+    text-align: left;
+}
+
+.stock {
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: 0rem;
+}
+
+.add {
+    color: rgb(0, 0, 0);
+    background-color: #BC3C3C !important;
+    ;
+
+    width: 19%;
+    border-radius: 5px;
+    /* float: right; */
+
+}
+
+
+
+.logo {
+    width: 80%;
+    margin-left: 3px;
+    padding-right: 3px;
+    padding-top: 5px;
+
+
+}
+
+.count {
+    font-size: 15px;
+    margin-top: 5px;
+
+
+
+}
