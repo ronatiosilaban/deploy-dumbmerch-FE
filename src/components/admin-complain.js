@@ -17,6 +17,7 @@ export default function ComplainAdmin() {
     const [contacts, setContacts] = useState([])
     // code here
     const [messages, setMessages] = useState([])
+    console.log('sta', messages);
 
     const title = "Complain admin"
     document.title = 'DumbMerch | ' + title

@@ -14,10 +14,10 @@ export default function Chat({ contact, user, messages, sendMessage }) {
                             <div key={index}>
                                 <div className={`d-flex py-1 ${item.idSender === user.id ? "justify-content-end" : "justify-content-start"}`}>
 
-                                    {item.idSender !== user.id && (
+                                    {/* {item.idSender !== user.id && (
                                         <img src={contact.profile?.image || default_profile} roundedCircle className={cssModules.imagechat} alt="bubble avatar" />
                                     )}
-
+ */}
 
                                     <div
                                         className={item.idSender === user.id ? "chat-me" : "chat-other"}
@@ -35,9 +35,6 @@ export default function Chat({ contact, user, messages, sendMessage }) {
                             </div>
                         ))}
                     </div>
-
-
-
 
 
                     <div style={{ height: '6vh' }} className="px-3">
