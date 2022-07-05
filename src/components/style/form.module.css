@@ -96,7 +96,9 @@ textarea {
 
 .body {
     background-color: black !important;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 100px;
     color: #fff;
     padding-top: 18vh !important;
 }

@@ -134,7 +134,7 @@ function EditComponent() {
     }, [product]);
     return (
 
-        <div className={cssModules.displaysa}>
+        <div className={cssModules.displaysa} style={{ width: '100%', height: '100%', paddingBottom: 100 }}>
             <div>
                 <NavbarComponent />
             </div>

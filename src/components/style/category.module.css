@@ -1,7 +1,8 @@
 .display {
     background-color: black;
     width: 100%;
-    height: 150vh !important;
+    height: 100% !important;
+    padding-bottom: 420px;
 }
 
 .table {

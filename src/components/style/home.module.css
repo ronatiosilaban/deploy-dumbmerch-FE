@@ -48,6 +48,7 @@
 
 .display {
     width: 100% !important;
-    height: 120vh;
+    height: 100%;
+    padding-bottom: 400px;
     background-color: black;
 }

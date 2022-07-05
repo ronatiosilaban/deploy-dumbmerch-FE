@@ -96,7 +96,7 @@ function AddProductComponent() {
 
 
     return (
-        <div className={cssModules.displaysa}>
+        <div className={cssModules.displaysa} style={{ width: '100%', height: '100%', paddingBottom: 200 }}>
             <div>
                 <NavbarComponent />
             </div>

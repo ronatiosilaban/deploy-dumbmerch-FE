@@ -49,7 +49,7 @@ function AddCategoryComponent() {
 
 
     return (
-        <div className={cssModules.display}>
+        <div className={cssModules.display} style={{ width: '100%', height: '100%', paddingBottom: "400px" }}>
             <div>
                 <NavbarComponent />
             </div>

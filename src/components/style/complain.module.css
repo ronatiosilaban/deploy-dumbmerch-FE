@@ -28,6 +28,7 @@
 
 .body {
     width: 100% !important;
+    width: 100%;
     background-color: black !important;
     height: 90.5vh;
 }
@@ -149,7 +150,7 @@
 
 .display {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: black;
 }
 
