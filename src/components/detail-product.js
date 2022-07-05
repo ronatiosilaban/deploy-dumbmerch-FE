@@ -203,7 +203,7 @@ function DetailProductComponent() {
     // });
 
 
-    const title = 'Detail Product';
+    const title = 'Detail-Product';
     document.title = 'DumbMerch | ' + title;
     return (
         <div className={cssModules.display}>
