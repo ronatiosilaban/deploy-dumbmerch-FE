@@ -19,7 +19,7 @@ function UserComplainComponent() {
     const [state] = useContext(UserContext)
 
     useEffect(() => {
-        socket = io('https://dumbmerch34project.herokuapp.com', {
+        socket = io('https://dumbmerch34project.herokuapp.com/', {
             auth: {
                 token: localStorage.getItem("token")
             },
