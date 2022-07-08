@@ -109,7 +109,7 @@ function DetailProductComponent() {
             const response = await API.post('/transaction', body, config);
             //   Create variabel for store token payment from response here ...
             const token = response.data.payment.token;
-               console.log(response.data.payment)
+               console.log('ada',response.data.payment)
 
             // Init Snap for display payment page with token here ...
             window.snap.pay(token, {
