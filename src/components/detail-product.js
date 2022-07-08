@@ -108,7 +108,7 @@ function DetailProductComponent() {
             // await API.post('/transaction', body, config);
             const response = await API.post('/transaction', body, config);
             //   Create variabel for store token payment from response here ...
-            const token = response.data.payment.token
+            const token = response.payment.token
             console.log(response.data);
 
 
